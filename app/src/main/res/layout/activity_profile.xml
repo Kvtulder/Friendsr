@@ -7,22 +7,32 @@
     android:orientation="vertical"
     tools:context="nl.kvtulder.friendsr.ProfileActivity">
 
-    <TextView
-        android:id="@+id/friendName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
     <ImageView
         android:id="@+id/friendImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cersei" />
+        />
+
+    <TextView
+        android:id="@+id/friendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/friendBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center" />
 
     <RatingBar
         android:id="@+id/friendRating"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numStars="5" />
+        android:layout_gravity="center_horizontal"
+        android:stepSize="0.5" />
 
 </LinearLayout>

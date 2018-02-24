@@ -30,15 +30,17 @@ public class FriendAdapter extends ArrayAdapter<Friend> {
                     parent, false);
         }
 
+        // get the friend corresponding to the current grid view
         Friend friend = objects.get(position);
+
+        // set the profile picture
         ImageView friendImage = convertView.findViewById(R.id.friendImage);
         Drawable picture = context.getResources().getDrawable(friend.getDrawableID());
         friendImage.setImageDrawable(picture);
 
+        // set the name
         TextView friendName = convertView.findViewById(R.id.friendName);
         friendName.setText(friend.getName());
-
-
 
         return convertView;
     }

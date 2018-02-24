@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Friendsr</string>
+    <string name="elliot">Elliot Alderson is a cybersecurity engineer and vigilante hacker who lives in New York City. He is played by Rami Malek. </string>
+    <string name="darlene">Darlene Alderson is a hacker, programmer, a member of fsociety, and is Elliot\'s sister. She is played by Carly Chaikin. </string>
+    <string name="tyrell">Tyrell Wellick is the former Senior Vice President of Technology for E Corp. He is played by Martin Wallström. </string>
+    <string name="angela">Angela Moss is a childhood friend of Elliot Alderson. She is portrayed by Portia Doubleday.</string>
+    <string name="dominique">Dominique "Dom" DiPierro is a FBI agent investigating the Five/Nine Hack. She is played by Grace Gummer. </string>
+    <string name="philip">Phillip Price is the CEO of E Corp. He is played by Michael Cristofer. </string>
+    <string name="mrrobot">Mr. Robot is the co-founder and leader of the hacker group fsociety, a revolutionary prophet who plans to bring down the world\'s largest conglomerate. Though he is intelligent and charismatic, Mr. Robot is also emotionally manipulative, and can be quick to violence. This has prompted comparisons to the behavior of militant cult leaders.</string>
 </resources>
